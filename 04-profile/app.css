@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chivo', sans-serif;
+}
+body {
+	background-color: #24009c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	background-color: white;
+	display: block;
+	height: 85vh;
+	width: 300px;
+	min-width: 300px;
+	margin: 200px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+img {
+	height: 90px;
+	width: 90px;
+	margin: 20px 0px 0px 100px;
+	border: 0.02rem solid rgb(14, 3, 3);
+	border-radius: 50px;
+}
+.name {
+	color: rgb(46, 43, 223);
+	font-size: xx-large;
+	text-align: center;
+	margin-top: 30px;
+}
+.ceo {
+	color: #ffb6b9;
+	text-align: center;
+}
+.meet {
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+	color: rgb(95, 61, 216);
+	font-size: 20px;
+}
+.date {
+	color: #ffb6b9;
+	text-align: center;
+}
+.btn-1,
+.btn-2 {
+	background-color: blue;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: none;
+	margin: 20px;
+	color: aliceblue;
+}
+.btn-1:hover,
+.btn-2:hover {
+	background-color: rgb(1, 8, 7);
+}
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+	border-top: 1px solid black;
+	padding: 5px;
+}
+span {
+	margin: 10px 20px 20px 20px;
+}
